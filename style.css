@@ -5,6 +5,7 @@ p.margin {
   text-align:justify /* line stretched to have equal length.*/
   width:80%;   /* only 90% of the text block width */
   margin-left:5%;   /* 5% left margin */
+  margin-right:5%;
 }
 
 
@@ -119,7 +120,7 @@ margin-left:5%; /* 5% left margin */
 
 #address {float:left}
 
-#maintext {width: 90%; margin-left:5%   ; margin-right:5%}
+#maintext {width: 80%; margin-left:10%   ; margin-right:10%}
 #about {clear:both;}
 
 #research { }
