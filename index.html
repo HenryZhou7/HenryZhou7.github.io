@@ -166,12 +166,63 @@
             <heading>Research</heading>
             <p>
               I am broadly interested in machine learning, computer vision, reinforcement learning, mathematics, image processing, and control theory.
+              (* Denotes equal contribution.)
             </p>
           </td>
         </tr>
       </table>
 
       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+        <tr bgcolor="#ffffff">
+          <td width="25%">
+            <img src="images/research/nge_genealogy_fish.png" width='250'></div>   
+          </td>
+          <td valign="top" width="75%">
+            <p>
+              <papertitle>Neural Graph Evolution: Automatic Robot Design</papertitle>
+              <br>
+              <strong>Yuhao Zhou</strong>*, Tingwu Wang*, Sanja Fidler, Jimmy Ba<br>
+              <em>International Conference on Learning Representations</em>, 2019 <br>
+              <a id='nge_abstract', onclick="detail_switch(this.id)">Abstract</a> /
+              <a id='nge_bib' onclick='detail_switch(this.id)'>Bibtex</a> /
+              <a href="https://openreview.net/forum?id=BkgWHnR5tm"> Open Review</a>
+              <!-- <a href='http://www.cs.toronto.edu/~henryzhou/movie4d/'>Project Web</a> / -->
+              <!-- <a href='http://www.cs.toronto.edu/~henryzhou/movie4d/sources/cvpr2018.pdf'>PDF</a> / -->
+              <!-- <a href="https://www.youtube.com/watch?v=O92bGCTxul8&feature=youtu.be&t=5550">CVPR Spotlight</a> / -->
+              <!-- <a href="http://www.cs.toronto.edu/~henryzhou/movie4d/sources/movie4d_poster.pdf">Poster</a>  -->
+
+              <br>
+            </p>
+
+            <p>
+              <div id='nge_abstract_content' style='display:none;'>
+                Despite the recent successes in robotic locomotion control, the design of robot relies heavily on human engineering. 
+                Automatic robot design has been a long studied subject, but the recent progress has been slowed due to the large combinatorial search space and the difficulty in evaluating the found candidates. 
+                To address the two challenges, we formulate automatic robot design as a graph search problem and perform evolution search in graph space. 
+                We propose Neural Graph Evolution (NGE), which performs selection on current candidates and evolves new ones iteratively. 
+                Different from previous approaches, NGE uses graph neural networks to parameterize the control policies, which reduces evaluation cost on new candidates with the help of skill transfer from previously evaluated designs. 
+                In addition, NGE applies Graph Mutation with Uncertainty (GM-UC) by incorporating model uncertainty, which reduces the search space by balancing exploration and exploitation. 
+                We show that NGE significantly outperforms previous methods by an order of magnitude. 
+                As shown in experiments, NGE is the first algorithm that can automatically discover kinematically preferred robotic graph structures, such as a fish with two symmetrical flat side-fins and a tail, or a cheetah with athletic front and back legs. 
+                Instead of using thousands of cores for weeks, NGE efficiently solves searching problem within a day on a single 64 CPU-core Amazon EC2.
+              </div>
+
+              <div id='nge_bib_content' style="font-family:monospace;display:none;">
+                @inproceedings{
+                wang2018neural,
+                title={Neural Graph Evolution: Automatic Robot Design},
+                author={Tingwu Wang and Yuhao Zhou and Sanja Fidler and Jimmy Ba},
+                booktitle={International Conference on Learning Representations},
+                year={2019},
+                url={https://openreview.net/forum?id=BkgWHnR5tm},
+                }
+              </div>
+            </p>
+            <p></p>
+
+          </td>
+        </tr>
 
         <tr bgcolor="#ffffff">
           <td width="25%">
