@@ -178,6 +178,46 @@
 
         <tr bgcolor="#ffffff">
           <td width="25%">
+            <img src="images/research/wav2vec-2_model_pic.png" width='250'></div>   
+          </td>
+          <td valign="top" width="75%">
+            <p>
+              <papertitle>wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations</papertitle>
+              <br>
+              Alexei Baevski, <strong>Henry Zhou</strong>, Abdelrahman Mohamed, Michael Auli<br>
+              <em>arxiv</em>, 2020 <br>
+              <a id='wav2vec2_abstract', onclick="detail_switch(this.id)">Abstract</a> /
+              <a id='wav2vec2_bib' onclick='detail_switch(this.id)'>Bibtex</a> /
+              <a href="https://arxiv.org/abs/2006.11477"> Arxiv</a> /
+              
+
+              <br>
+            </p>
+
+            <p>
+              <div id='wav2vec2_abstract_content' style='display:none;'>
+                We show for the first time that learning powerful representations from speech audio alone followed by fine-tuning on transcribed speech can outperform the best semi-supervised methods while being conceptually simpler. wav2vec 2.0 masks the speech input in the latent space and solves a contrastive task defined over a quantization of the latent representations which are jointly learned. We set a new state of the art on both the 100 hour subset of Librispeech as well as on TIMIT phoneme recognition. When lowering the amount of labeled data to one hour, our model outperforms the previous state of the art on the 100 hour subset while using 100 times less labeled data. Using just ten minutes of labeled data and pre-training on 53k hours of unlabeled data still achieves 5.7/10.1 WER on the noisy/clean test sets of Librispeech. This demonstrates the feasibility of speech recognition with limited amounts of labeled data. Fine-tuning on all of Librispeech achieves 1.9/3.5 WER using a simple baseline model architecture. We will release code and models.
+              </div>
+
+              <div id='wav2vec2_bib_content' style="font-family:monospace;display:none;">
+                @misc{baevski2020wav2vec,
+                  title={wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations},
+                  author={Alexei Baevski and Henry Zhou and Abdelrahman Mohamed and Michael Auli},
+                  year={2020},
+                  eprint={2006.11477},
+                  archivePrefix={arXiv},
+                  primaryClass={cs.CL}
+              }
+              </div>
+            </p>
+            <p></p>
+
+          </td>
+        </tr>
+
+
+        <tr bgcolor="#ffffff">
+          <td width="25%">
             <img src="images/research/gamegan-motivation.gif" width='250'></div>   
           </td>
           <td valign="top" width="75%">
@@ -194,6 +234,7 @@
               <a href="https://twitter.com/nvidia/status/1263818505742200833?s=20">Nvidia Twitter</a> /
               <a href="https://blogs.nvidia.com/blog/2020/05/22/gamegan-research-pacman-anniversary/">Blog Post</a> /
               <a href="https://www.youtube.com/watch?v=H8F6J7mYyz0&fbclid=IwAR1SxxWJBPgSzDCEWz4w11B51vSaJeE7zGELHlrSG6w_ej3l_GAGZdZLU2U">YouTube Explained </a> /
+              <a href="https://www.youtube.com/watch?v=3UZzu4UQLcI&t=343s"> Two Minute Papers </a> /
               <!-- <a href="https://openreview.net/forum?id=BkgWHnR5tm"> Open Review</a> / -->
               <!-- <a href='https://github.com/WilsonWangTHU/neural_graph_evolution'> Codes</a> /  -->
               <!-- <a href='http://www.cs.toronto.edu/~henryzhou/NGE_website/'>Project Web</a> / -->
